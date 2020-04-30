@@ -1,0 +1,49 @@
+        main {
+            display: flex;
+            margin: auto;
+            position: absolute;
+        }
+        
+        table {
+            display: inline-flexbox;
+            width: 466px;
+            height: 466px;
+            background-color: darkslategray;
+            text-align: center;
+            box-sizing: border-box;
+            border: black 2px solid;
+            margin: auto;
+            background-color: gray;
+        }
+        
+        td {
+            border: solid black 2px;
+            background-color: white;
+            width: fit-content;
+            display: flexbox;
+            height: 50px;
+        }
+        
+        .visor {
+            display: inline-flex;
+            text-align: center;
+            background-color: blanchedalmond;
+            width: 700px;
+        }
+        
+        .oran {
+            background-color: orange;
+        }
+        
+        button {
+            background-color: orange;
+            display: flexbox;
+        }
+        
+        tr {
+            display: flexbox;
+        }
+        
+        .teclas {
+            display: flexbox;
+        }
